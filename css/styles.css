@@ -1,0 +1,114 @@
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    max-width: 1024px;
+	margin: 0 auto;
+  float: 0;
+}
+p{
+  font-family: sans-serif;
+}
+
+
+#Mainheader{
+  background-color:rgb(196, 255, 226);
+   border: 1px;
+   width: 20%;
+   margin-top: 5px;
+}
+header{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+background-color: grey;
+    color: green;
+}
+
+nav{
+  background-color: rgb(196, 255, 226);
+}
+nav > ul> li{
+  padding: 20px;
+list-style-type: none;
+padding-top: 20px;
+margin-top: 5px;
+}
+
+nav>ul{
+  display:flex;
+
+  padding: 30;
+}
+#Asside{
+  display: flex;
+  margin-top: -450px;
+  width:30%;
+  margin-left: auto;
+  background-color: rgb(255, 213, 158);
+
+}
+
+#Subtex{
+  width: 60%;
+  background-color: hsl(24, 100%, 79%);
+  margin-top: 40;
+  border-radius: 5px;
+  border: 5px;
+  margin-bottom: 80;
+}
+
+#Article1{
+  width: 20%;
+  background-color: rgba(255, 216, 87, 1);
+  margin-top: 30px;
+
+}
+#Article2{
+width: 20%;
+background-color: rgba(255, 216, 87, 1);
+position: relative;
+left: 30%;
+border: 1px;
+top: -120px;
+
+}
+
+#footer{
+  margin-top: 20px;
+  padding: 50px 5px 20px 100px;
+  background-color: purple;
+}
+form{
+  background-color: hsl(28, 100%, 75%);
+  margin: 20px;
+  padding: 50px 30px 20px 60px;
+  border-radius: 25px;
+  width: 60%;
+}
+footer{
+  margin-top: 10px;
+  padding: 20px 5px 20px;
+  background-color: purple;
+}
+#color1{
+  color: red;
+  border-radius: 7px;
+  background-color: rgba(255, 165, 145, 1);
+}
+#color2{
+  color: green;
+  border-radius: 4px;
+  background-color: rgba(224, 255, 163, 1);
+}
+#myheader{
+  text-transform: uppercase;
+}
+#myindex{
+  padding-top: 30px;
+}
+#mylogin{
+  padding-top: 40px;
+}
